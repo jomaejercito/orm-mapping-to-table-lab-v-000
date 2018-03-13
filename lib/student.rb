@@ -17,7 +17,8 @@ class Student
         name TEXT,
         grade TEXT
         )
-        SQL
+    SQL
+
     DB[:conn].execute(sql)
   end
 
@@ -43,6 +44,6 @@ class Student
     student.save
     student
   end
-  
+
 
 end
